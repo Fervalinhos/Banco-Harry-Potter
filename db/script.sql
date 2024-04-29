@@ -16,5 +16,5 @@ CREATE TABLE wand (
     id SERIAL PRIMARY KEY,
     core VARCHAR(255) NOT NULL,
     wood VARCHAR(255) NOT NULL,
-    length INT NOT NULL,
+    length DECIMAL(10, 2) NOT NULL
 );
